@@ -12,8 +12,8 @@ y = music_data["genre"]
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
-model = DecisionTreeClassifier()
-model.fit(X_train, y_train)
+model = DecisionTreeClassifier() # creation of a model object
+model.fit(X_train, y_train) # trainig a model
 
 predictions = model.predict(X_test)
 

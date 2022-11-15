@@ -9,6 +9,7 @@ numpy = "*"
 matplotlib = "*"
 black = "*"
 scikit-learn = "*"
+joblib = "*"
 
 [dev-packages]
 
